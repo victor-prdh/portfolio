@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  font-size: 16px;
+  top: 0;
+  gap: 20px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
