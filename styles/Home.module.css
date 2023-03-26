@@ -1,24 +1,61 @@
 .presentation {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 200px 0;
 }
 
+.link {
+  font-weight: 500;
+  color: black;
+  text-decoration: underline;
+}
+
+.btnContainer {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  padding-right: 4%;
+  margin-top: 30px;
+}
+
 .presentation h1 {
+  width: 70%;
   font-size: 62px;
 }
 
+.presentation p {
+  margin-top: 20px;
+  width: 70%;
+  font-size: 28px;
+  color: gray;
+}
+
 @media screen and (max-width: 991px) {
+  .presentation {
+    padding: 150px 0;
+  }
+
   .presentation h1 {
+    width: 80%;
     font-size:46px;
+  }
+
+  .presentation p {
+    width: 80%;
+    font-size: 20px;
   }
 
   
 }
 
 @media screen and (max-width: 479px) {
+  .presentation {
+    padding: 75px 0;
+  }
+
   .presentation h1 {
     font-size:38px;
   }
