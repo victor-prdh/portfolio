@@ -11,8 +11,8 @@ export default function Header() {
 
       <nav>
         <ul className={styles.navigation}>
-          <li><Link href="/">home</Link></li>
-          <li><Link href="/about">à&nbsp;propos</Link></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
         </ul>
       </nav>
     </header>
