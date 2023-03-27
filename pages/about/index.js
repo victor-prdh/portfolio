@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <h1>Hello !</h1>
           <p>Moi c'est Victor, un développeur passionné par la 
-            création d'applications performantes tout en ayant la volonté de m'améliorer continuellement.</p>
+            création d'applications performantes ayant la volonté de s'améliorer continuellement.</p>
         </div>
       </div>
     </>
