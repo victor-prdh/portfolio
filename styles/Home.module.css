@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 479px) {
   .presentation {
-    padding: 75px 0;
+    padding: 15px 0 30px;
   }
 
   .presentation h1 {
