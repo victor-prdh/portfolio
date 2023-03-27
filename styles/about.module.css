@@ -1,0 +1,54 @@
+.presentation {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 50px;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.img {
+  max-width: 33%;
+  height: auto;
+}
+
+.presentation h1 {
+  font-size: 62px;
+  width: fit-content;
+}
+
+.presentation p {
+  margin-top: 20px;
+  font-size: 28px;
+  width: fit-content;
+  color: #2e2e2e;
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 991px) {
+  .presentation {
+    padding: 100px 0;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .presentation h1 {
+    font-size:46px;
+  }
+  
+}
+
+@media screen and (max-width: 479px) {
+  .presentation {
+    width: 90%;
+    padding: 15px 0 40px;
+  }
+
+  .presentation img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
