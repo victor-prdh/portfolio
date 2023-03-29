@@ -16,7 +16,7 @@
 .btnContainer {
   width: 70%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 4%;
   margin-top: 30px;
 }
